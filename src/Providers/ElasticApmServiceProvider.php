@@ -1,17 +1,17 @@
 <?php
 
-namespace PhilKra\ElasticApmLaravel\Providers;
+namespace Fstories\Bareksaapm\Providers;
 
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
-use PhilKra\Agent;
-use PhilKra\ElasticApmLaravel\Apm\SpanCollection;
-use PhilKra\ElasticApmLaravel\Apm\Transaction;
-use PhilKra\ElasticApmLaravel\Contracts\VersionResolver;
-use PhilKra\Helper\Timer;
+use Fstories\Agent;
+use Fstories\Bareksaapm\Apm\SpanCollection;
+use Fstories\Bareksaapm\Apm\Transaction;
+use Fstories\Bareksaapm\Contracts\VersionResolver;
+use Fstories\Helper\Timer;
 
 class ElasticApmServiceProvider extends ServiceProvider
 {

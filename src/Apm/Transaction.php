@@ -1,9 +1,9 @@
 <?php
 
-namespace PhilKra\ElasticApmLaravel\Apm;
+namespace Fstories\Bareksaapm\Apm;
 
 
-use PhilKra\Helper\Timer;
+use Fstories\Helper\Timer;
 
 /*
  * Eventually this class could be a proxy for a Transaction provided by the

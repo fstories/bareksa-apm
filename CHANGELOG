@@ -7,5 +7,5 @@
 2019-02-22 (5.7.5) dstepe
     * Start CHANGELOG
     * Replace use of LARAVEL_START constant with REQUEST_TIME_FLOAT server var
-    * Replace transaction duration with PhilKra\Helper\Timer
-    * Require philkra/elastic-apm-php-agent >=6.5.3 for Timer feature
+    * Replace transaction duration with Fstories\Helper\Timer
+    * Require Fstories/elastic-apm-php-agent >=6.5.3 for Timer feature

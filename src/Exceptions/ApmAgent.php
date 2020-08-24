@@ -1,26 +1,26 @@
 <?php
 
-namespace PhilKra\ElasticApmLaravel\Exceptions;
+namespace Fstories\Bareksaapm\Exceptions;
 
 /**
  *
  * Overloaded Exception Handler for Elastic APM Agent
  *
  * @link https://laravel.com/docs/5.6/errors
- * @link https://github.com/philkra/elastic-apm-laravel/issues/9
+ * @link https://github.com/Fstories/bareksaapm/issues/9
  *
  */
 
 use Exception;
 use App\Exceptions\Handler;
-use \PhilKra\Agent;
+use \Fstories\Agent;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
 class ApmAgent extends Handler
 {
     /**
-     * @var \PhilKra\Agent
+     * @var \Fstories\Agent
      */
     protected $agent;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhilKra\ElasticApmLaravel\Apm;
+namespace Fstories\Bareksaapm\Apm;
 
 
 use Illuminate\Support\Collection;
