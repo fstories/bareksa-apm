@@ -3,7 +3,7 @@
 namespace Fstories\Bareksaapm\Apm;
 
 
-use Fstories\Helper\Timer;
+use PhilKra\Helper\Timer;
 
 /*
  * Eventually this class could be a proxy for a Transaction provided by the

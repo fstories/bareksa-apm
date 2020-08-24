@@ -13,7 +13,7 @@ namespace Fstories\Bareksaapm\Exceptions;
 
 use Exception;
 use App\Exceptions\Handler;
-use \Fstories\Agent;
+use \PhilKra\Agent;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 

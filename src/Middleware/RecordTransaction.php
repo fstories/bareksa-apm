@@ -4,8 +4,8 @@ namespace Fstories\Bareksaapm\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Log;
-use Fstories\Agent;
-use Fstories\Helper\Timer;
+use PhilKra\Agent;
+use PhilKra\Helper\Timer;
 
 class RecordTransaction
 {

@@ -7,11 +7,11 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
-use Fstories\Agent;
+use PhilKra\Agent;
 use Fstories\Bareksaapm\Apm\SpanCollection;
 use Fstories\Bareksaapm\Apm\Transaction;
 use Fstories\Bareksaapm\Contracts\VersionResolver;
-use Fstories\Helper\Timer;
+use PhilKra\Helper\Timer;
 
 class ElasticApmServiceProvider extends ServiceProvider
 {
